@@ -1,0 +1,29 @@
+*{
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+h1{
+    color: green;
+    text-align: center;
+    
+}
+h2{
+    color: green;
+}
+.real{
+    color: black;
+    font-size: larger;
+
+}
+#ponha{
+    text-align: center;
+    color: chocolate;
+    font-size: x-large;
+}
