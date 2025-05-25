@@ -1,0 +1,53 @@
+*{
+    background-color: #F6EDDC;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    margin-bottom: 5px;
+    text-align: justify;
+    padding-right: 20px;
+}
+h1{
+    margin-top: 20px;
+    color: green;
+    text-align: center;
+    
+}
+h2{
+    color: green;
+    margin-bottom: 10px;
+}
+.real{
+    color: black;
+    font-size: larger;
+
+}
+#ponha{
+    margin-bottom: 30px;
+    text-align: center;
+    color: chocolate;
+    font-size: x-large;
+}
+.item {
+  display: flex;
+  
+  margin-bottom: 20px;
+  width: 49%;
+  float: left;
+}
+
+.item img {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+  border-radius: 10px
+}
+.descricao {
+    max-width: 600px;
+}
