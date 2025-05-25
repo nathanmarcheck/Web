@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: cornsilk;
+}
+h1{
+    color: brown;
+    text-align: center;
+    margin: 10px;
+}
+p{
+    color: burlywood;
+    text-align: center;
+    font-size: x-large;
+}
+
+#contra{
+    text-align: left;
+    color: cadetblue;
+    font-size: small;
+}
+.teste{
+    
+    color: rgb(233, 143, 9);
+    font-size: larger;
+}
