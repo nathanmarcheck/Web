@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    background-color: aquamarine;
+    width: 100%;
+    /* text-align: center; */
+}
+.box{
+    display:block;
+    background-color: peru;
+    margin: 50px auto;
+    border: 10px solid purple;
+    padding: 30px 20px;
+    width: 25%;
+}
+.box h2{
+    padding-bottom: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+.box p{
+    text-align: justify;
+    color: rgb(0, 2, 3);
+} 

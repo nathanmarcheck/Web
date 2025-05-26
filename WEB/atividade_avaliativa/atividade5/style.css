@@ -35,7 +35,6 @@ h2{
 }
 .item {
   display: flex;
-  
   margin-bottom: 20px;
   width: 49%;
   float: left;
