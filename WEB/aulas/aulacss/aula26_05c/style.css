@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    /* top: 100px; */
+    width: 100%;
+    text-align: center;
+    background-color: greenyellow;
+    padding: 10px;
+}
+nav a{
+    margin-right: 30px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav a:hover{
+    color: red;
+}
+section{
+    background-color: violet;
+    text-align: center;
+    height: 200vh;
+}
+section h1{
+    padding-top: 50px;
+}
