@@ -83,7 +83,17 @@ nav a:hover {
 }
 
 section {
+    text-align: center;
     background-color: #F6EDDC;
     text-align: center;
     padding: 50px;
+}
+
+section p {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+section h1 {
+    margin-bottom: 20px;
 }
