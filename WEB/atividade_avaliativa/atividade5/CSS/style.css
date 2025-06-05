@@ -43,8 +43,9 @@ h2 {
 .item {
     display: flex;
     margin-bottom: 20px;
-    width: 49%;
+    width: 50%;
     float: left;
+    padding-left: 3vh;
 }
 
 .item img {
@@ -52,7 +53,7 @@ h2 {
     width: 200px;
     height: 200px;
     margin-right: 15px;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .descricao {
@@ -95,4 +96,55 @@ section p {
 
 section h1 {
     margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    color: #fff;
+    padding: 1vh;
+    position: erelative;
+    bottom: 0;
+    left: 0;
+}
+
+section li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contato-box {
+    background-color: #fff;
+    border: 2px solid #802425;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 30px 25px;
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.contato-box ul {
+    padding-left: 20px;
+    background-color: #fff;
+}
+
+.contato-box li {
+    background-color: #fff;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contato-box li a {
+    color: #802425;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.contato-box li a:hover {
+    text-decoration: underline;
+}
+
+.contato-box p {
+    margin-bottom: 10px;
+    background-color: #fff;
 }
