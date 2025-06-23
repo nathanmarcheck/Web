@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "aside section section"
+        "footer footer footer";
+    gap: 10px;
+}
+header {
+    grid-area: header;
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    animation-name: ex;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+aside {
+    grid-area: aside;
+    background-color: green;
+    padding: 20px;
+    height: 80vh;
+    text-align: center;
+}
+section {
+    grid-area: section;
+    background-color: purple;
+    text-align: center;
+}
+footer {
+    grid-area: footer;
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+@keyframes ex {
+    from { background-color: tomato; }
+    to { background-color: brown; }
+}
